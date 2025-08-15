@@ -7,11 +7,13 @@
     "dev": "vite --host",
     "build": "tsc && vite build",
     "preview": "vite preview --host",
-    "watch": "tsc && (vite preview --host &) && vite build --watch"
+    "watch": "tsc && (vite preview --host &) && vite build --watch",
+    "start": "node proxy.js"
   },
   "dependencies": {
     "@helpscout/javascript-sdk": "^0.8.0",
     "@helpscout/ui-kit": "^0.13.3",
+    "express": "^5.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
